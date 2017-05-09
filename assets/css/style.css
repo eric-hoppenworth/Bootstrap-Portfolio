@@ -27,15 +27,29 @@
 	height: auto;
 }
 #rightContent img{
-	width:100%;
+	width:90%;
 	height: auto;
+	margin: 5%;
 }
 .thumbnail {
 	border: 0;
 }
 
+#rightContent img{
+	margin-bottom: 20px;
+
+}
+
+#rightContent p{
+	margin:50px;
+}
+
 #footer{
 	background: black;
 
+}
+
+.input-group{
+	margin: 20px;
 }
 /*end implemented styles*/
