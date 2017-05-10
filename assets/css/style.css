@@ -14,6 +14,12 @@
 /*end development styles*/
 
 /*start implemented styles*/
+html, body{
+	height:100%;
+}
+.wrapper{
+	min-height: 95%;
+}
 .navbar {
 	padding: 0;
 	margin-bottom: 0;
@@ -39,6 +45,31 @@
 	margin-bottom: 20px;
 
 }
+.jumbotron{
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%
+}
+.jumbotron h3{
+	padding: 10px;
+	background:grey;
+}
+#portfolio1{
+	background-image: url("../images/filler1.jpg");
+}
+#portfolio2{
+	background-image: url("../images/filler2.jpg");
+}
+#portfolio3{
+	background-image: url("../images/filler3.jpg");
+}
+#portfolio4{
+	background-image: url("../images/filler4.jpg");
+}
+#portfolio5{
+	background-image: url("../images/filler5.jpg");
+}
 
 #rightContent p{
 	margin:50px;
@@ -46,7 +77,7 @@
 
 #footer{
 	background: black;
-
+	height: 60px;
 }
 
 .input-group{
